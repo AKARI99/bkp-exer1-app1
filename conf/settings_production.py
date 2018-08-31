@@ -19,7 +19,7 @@ from settings import APP_ID
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',   # 默认用mysql
-        'NAME': 'akari-app',                    # 数据库名 (默认与APP_ID相同)
+        'NAME': 'akari_app',                    # 数据库名 (默认与APP_ID相同)
         'USER': 'akari_app',                    # 你的数据库user
         'PASSWORD': 'akari_app@2018',           # 你的数据库password
         'HOST': '172.50.19.22',                 # 数据库HOST
